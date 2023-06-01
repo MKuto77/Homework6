@@ -65,7 +65,7 @@ section{
     flex-wrap: wrap;
     column-gap: 22px;
     row-gap: 51px;
-    justify-content: center;
+    justify-content: flex-start;
 
 }
 .Insider{
