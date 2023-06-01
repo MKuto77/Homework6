@@ -10,7 +10,6 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
 }
 .header_header{
     color: #27187F;
