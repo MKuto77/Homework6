@@ -63,8 +63,8 @@ section{
 .Section_container{
     display: flex;
     flex-wrap: wrap;
-    gap: 51px 22px;
-    align-content: space-between;
+    gap: 22px;
+    justify-content: space-between;
 }
 .Insider{
     width: 30%;
