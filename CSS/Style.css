@@ -10,16 +10,19 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 .header_header{
     color: #27187F;
     font-weight: 500;
     font-size: 40px;
+    font-family: 'Ubuntu', sans-serif;
 }
 .Head_li{
     color: #758BFD;
     font-weight: 500;
     font-size: 24px;
+    font-family: 'Ubuntu', sans-serif;
 }
 .Active{
     color: #27187F
@@ -46,6 +49,7 @@ section{
     width: 100%;
     padding: 94px 98px;
     display: flex;
+    flex-wrap: wrap;
     background-color: #DDEAF8;
     flex-direction: column;
     row-gap: 68px;
@@ -55,6 +59,7 @@ section{
     font-size: 32px;
     font-weight: 700;
     display: flex;
+    font-family: 'Ubuntu', sans-serif;
 }
 .Section_container{
     display: flex;
@@ -78,4 +83,56 @@ section{
     font-size: 20px;
     font-weight: 400;
     color: #133B3A;
+    font-family: 'Ubuntu', sans-serif;
 }
+/* section ends here */
+/* footer starts here */
+footer{
+    width: 100%;
+    background-color: #758BFD;
+    display: flex;
+    padding: 75px 98px;
+    align-items: center;
+    column-gap: 650px;
+}
+.footer_header{
+    color: #00CAD7;
+    font-weight: 400;
+    font-size: 20px;
+}
+.mail{
+    font-size: 13px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.soc_med{
+    font-size: 22px;
+    color: #FFFFFF;
+}
+.contact_info{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.social_media{
+    display: flex;
+    column-gap: 20px;
+}
+.Paypal{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+.Visa{
+    width: 75px;
+    background-color: #FFFFFF;
+    padding: 5px 2px;
+    border-radius: 5px;
+    height: 45px;
+}
+.pay{
+    width: 100%;
+    height: 100%;
+    
+}
+/* footer ends here */
